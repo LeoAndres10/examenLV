@@ -3,7 +3,7 @@ import { Banco } from "../Modelos/Banco";
 
 export const BancoContext=createContext({
     saldoInicial:0,
-    aumentarSaldo:(monto:number)=>{},
+    aumentarSaldo:(cantidad:number)=>{},
     listaDepositosBanco: [] as Banco[],
-     retirarSaldo:(monto:number)=>{}
+     retirarSaldo:(cantidad:number)=>{}
 })
